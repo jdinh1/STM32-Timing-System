@@ -1,0 +1,31 @@
+{
+  "name": "s6",
+  "version": "1.0.0",
+  "description": "pio run -e nucleo_f746zg --verbose && pio run --target upload -e bw_s6_v1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue-white-inc/s6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blue-white-inc/s6/issues"
+  },
+  "homepage": "https://github.com/blue-white-inc/s6#readme",
+  "dependencies": {
+    "clang-format": "1.0.55",
+    "gulp": "3.9.1",
+    "gulp-clang-format": "1.0.23",
+    "gulp-util": "3.0.8",
+    "lodash": "4.17.4",
+    "map-stream": "0.0.7",
+    "vinyl-fs": "2.4.4"
+  }
+}
